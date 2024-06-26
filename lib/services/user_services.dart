@@ -15,6 +15,7 @@ class UserService {
     if (response.statusCode == 200) {
       final List<dynamic> jsonData = response.data;
       return jsonData.map((json) => UsersModel.fromJson(json)).toList();
+      
     } else {
       throw Exception('Unable to load data');
     }
