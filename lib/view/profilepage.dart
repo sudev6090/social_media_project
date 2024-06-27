@@ -142,10 +142,6 @@ Drawer drawer() {
     Icons.password_outlined,
     Icons.settings,
     Icons.logout,
-    // Icons.star,
-    // CupertinoIcons.question_circle,
-    // Icons.share,
-    // Icons.settings
   ];
   var titletxt = [
     'Edit profile',
